@@ -1,0 +1,119 @@
+/* RESET */
+body, div, ul, li, p {
+  margin:0;
+  padding:0;
+}
+
+a img {
+  border:none;
+}
+
+
+/* BASIC */
+a {
+  color:white;
+}
+
+body {
+  background: #76131B url('../images/bg.jpg') fixed;
+  color:white;
+  font: 1em/1.5em "Adobe Garamond Pro", Georgia, serif;
+}
+
+
+
+/* BASIC CLASSES */
+
+.quote {
+  font-size: 1.5em;
+  font-style: italic;
+}
+
+.quote .author {
+  font-size: small;
+  text-align: right;
+  color:#F66;
+}
+
+
+
+
+#home_body {
+  padding:3em;
+  padding-bottom:1em;
+}
+
+
+/* TITLE */
+#home_body #title {
+  margin-bottom:3em;
+  text-align:center;
+}
+#home_body #title img{
+  display:inline;
+  margin-right:10px;
+  margin-bottom:-13px;
+}
+#home_body h1 a {
+  font-size:65px;
+  line-height:70px;
+  font-weight: normal;
+  text-decoration: none;
+  letter-spacing:10px;
+}
+
+#home_body #claim {
+  font-style: italic;
+  font-size:20px;
+  font-weight: normal;
+  word-spacing: 5px;
+  letter-spacing: 0.2em;
+/*  margin-top: 10px;*/
+  margin-left:6em;
+  text-align:center;
+/*  margin-top:-35px;*/
+}
+
+
+
+/* SUMMARY */
+#home_body #summary {
+  width:50%;
+/*  margin:1em;*/
+  float:left;
+}
+#home_body #summary #summary_text{
+  margin:0 auto;
+  width:15em;
+}
+
+#home_body #sections {
+  float:left;
+  width: 49%;
+}
+
+#home_body #sections ul{
+  list-style: none;
+/*  float:left;*/
+  line-height:1em;
+}
+
+#home_body #sections ul li{
+  font-size:large;
+  margin-bottom:1em;
+}
+
+#home_body #sections ul li a{
+  text-transform:uppercase;
+}
+
+#home_body #sections ul li:hover{
+  list-style: circle outside;
+}
+
+#home_body #sections ul li .description{
+  font-variant: small-caps;
+  font-size:small;
+  color:#F66;
+}
+

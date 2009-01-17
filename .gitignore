@@ -1,0 +1,5 @@
+docs/api
+*.log
+*.pid
+*.DS_Store
+*.log
