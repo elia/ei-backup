@@ -25,13 +25,16 @@ body {
 /* BASIC CLASSES */
 
 .quote {
-  font-size: 1.5em;
   font-style: italic;
 }
 
 .quote .author {
   font-size: small;
   text-align: right;
+  color:#F66;
+}
+
+.description {
   color:#F66;
 }
 
@@ -46,7 +49,7 @@ body {
 
 /* TITLE */
 #home_body #title {
-  margin-bottom:3em;
+  margin-bottom:2.5em;
   text-align:center;
 }
 #home_body #title img{
@@ -68,52 +71,106 @@ body {
   font-weight: normal;
   word-spacing: 5px;
   letter-spacing: 0.2em;
-/*  margin-top: 10px;*/
   margin-left:6em;
   text-align:center;
-/*  margin-top:-35px;*/
 }
+
 
 
 
 /* SUMMARY */
+
 #home_body #summary {
   width:50%;
-/*  margin:1em;*/
   float:left;
 }
-#home_body #summary #summary_text{
+#home_body #summary .quote{
+  font-size: 1.5em;
   margin:0 auto;
   width:15em;
 }
 
-#home_body #sections {
+
+
+
+/* SECTIONS */
+
+#home_body #sections{
+/*  font-size:1.25em;*/
+  width:22.5em;
+  margin:0 auto;
+  margin-top:3.5em;
+}
+#home_body #sections ul{
+  list-style-type: none;
+/*  font-size:1.2em;*/
+/*  font-style: italic;*/
+  line-height:1em;
+  font-size:large;
+}
+#home_body #sections ul li{
+  margin-bottom:1em;
+}
+#home_body #sections ul li a{
+  text-transform:uppercase;
+}
+#home_body #sections ul li .description{
+  font-variant:small-caps;
+  font-size:small;
+}
+
+
+
+/* CLIENT_SECTIONS */
+
+#home_body #client_sections {
   float:left;
   width: 49%;
 }
 
-#home_body #sections ul{
+#home_body #client_sections ul{
   list-style: none;
-/*  float:left;*/
   line-height:1em;
 }
 
-#home_body #sections ul li{
+#home_body #client_sections ul li{
   font-size:large;
   margin-bottom:1em;
 }
 
-#home_body #sections ul li a{
+#home_body #client_sections ul li a{
   text-transform:uppercase;
 }
 
-#home_body #sections ul li:hover{
+#home_body #client_sections ul li:hover{
   list-style: circle outside;
 }
 
-#home_body #sections ul li .description{
+#home_body #client_sections ul li .description{
   font-variant: small-caps;
   font-size:small;
-  color:#F66;
 }
+
+
+
+
+/* FOOTER */
+
+#footer {
+  text-transform:uppercase;
+  clear:both;
+  width:50em;
+  margin:auto;
+  text-align:center;
+  border-top:solid 1px #f66;
+  margin-top:2em;
+  padding-top:1em;
+  font-size:small;
+}
+
+#footer #contacts {
+  letter-spacing:0.1em;
+}
+
+
 
